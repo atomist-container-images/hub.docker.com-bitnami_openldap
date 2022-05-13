@@ -1,18 +1,86 @@
-# Tags: latest, 2.6.1-debian-10-r100, 2.6.1, 2.6-debian-10, 2.6
+# Tags: latest, 2.6.2-debian-10-r8, 2.6.2, 2.6-debian-10, 2.6
 FROM bitnami/openldap:latest
-FROM bitnami/openldap:2.6.1-debian-10-r100
-FROM bitnami/openldap:2.6.1
+FROM bitnami/openldap:2.6.2-debian-10-r8
+FROM bitnami/openldap:2.6.2
 FROM bitnami/openldap:2.6-debian-10
 FROM bitnami/openldap:2.6
+
+# Tags: 2.5.12-debian-10-r8, 2.5.12, 2.5-debian-10, 2.5
+FROM bitnami/openldap:2.5.12-debian-10-r8
+FROM bitnami/openldap:2.5.12
+FROM bitnami/openldap:2.5-debian-10
+FROM bitnami/openldap:2.5
 
 # Tags: _
 FROM bitnami/openldap:_
 
-# Tags: 2.5.11-debian-10-r101, 2.5.11, 2.5-debian-10, 2.5
-FROM bitnami/openldap:2.5.11-debian-10-r101
+# Tags: 2.6.2-debian-10-r7
+FROM bitnami/openldap:2.6.2-debian-10-r7
+
+# Tags: 2.5.12-debian-10-r7
+FROM bitnami/openldap:2.5.12-debian-10-r7
+
+# Tags: 2.6.2-debian-10-r6
+FROM bitnami/openldap:2.6.2-debian-10-r6
+
+# Tags: 2.5.12-debian-10-r6
+FROM bitnami/openldap:2.5.12-debian-10-r6
+
+# Tags: 2.6.2-debian-10-r5
+FROM bitnami/openldap:2.6.2-debian-10-r5
+
+# Tags: 2.5.12-debian-10-r5
+FROM bitnami/openldap:2.5.12-debian-10-r5
+
+# Tags: 2.6.2-debian-10-r4
+FROM bitnami/openldap:2.6.2-debian-10-r4
+
+# Tags: 2.5.12-debian-10-r4
+FROM bitnami/openldap:2.5.12-debian-10-r4
+
+# Tags: 2.6.2-debian-10-r3
+FROM bitnami/openldap:2.6.2-debian-10-r3
+
+# Tags: 2.5.12-debian-10-r3
+FROM bitnami/openldap:2.5.12-debian-10-r3
+
+# Tags: 2.6.2-debian-10-r2
+FROM bitnami/openldap:2.6.2-debian-10-r2
+
+# Tags: 2.5.12-debian-10-r2
+FROM bitnami/openldap:2.5.12-debian-10-r2
+
+# Tags: 2.6.2-debian-10-r1
+FROM bitnami/openldap:2.6.2-debian-10-r1
+
+# Tags: 2.5.12-debian-10-r1
+FROM bitnami/openldap:2.5.12-debian-10-r1
+
+# Tags: 2.6.2-debian-10-r0
+FROM bitnami/openldap:2.6.2-debian-10-r0
+
+# Tags: 2.5.12-debian-10-r0
+FROM bitnami/openldap:2.5.12-debian-10-r0
+
+# Tags: 2.6.1-debian-10-r102, 2.6.1
+FROM bitnami/openldap:2.6.1-debian-10-r102
+FROM bitnami/openldap:2.6.1
+
+# Tags: 2.5.11-debian-10-r103, 2.5.11
+FROM bitnami/openldap:2.5.11-debian-10-r103
 FROM bitnami/openldap:2.5.11
-FROM bitnami/openldap:2.5-debian-10
-FROM bitnami/openldap:2.5
+
+# Tags: 2.6.1-debian-10-r101
+FROM bitnami/openldap:2.6.1-debian-10-r101
+
+# Tags: 2.5.11-debian-10-r102
+FROM bitnami/openldap:2.5.11-debian-10-r102
+
+# Tags: 2.6.1-debian-10-r100
+FROM bitnami/openldap:2.6.1-debian-10-r100
+
+# Tags: 2.5.11-debian-10-r101
+FROM bitnami/openldap:2.5.11-debian-10-r101
 
 # Tags: 2.6.1-debian-10-r99
 FROM bitnami/openldap:2.6.1-debian-10-r99
@@ -124,63 +192,3 @@ FROM bitnami/openldap:2.5.11-debian-10-r83
 
 # Tags: 2.6.1-debian-10-r81
 FROM bitnami/openldap:2.6.1-debian-10-r81
-
-# Tags: 2.5.11-debian-10-r82
-FROM bitnami/openldap:2.5.11-debian-10-r82
-
-# Tags: 2.6.1-debian-10-r80
-FROM bitnami/openldap:2.6.1-debian-10-r80
-
-# Tags: 2.5.11-debian-10-r81
-FROM bitnami/openldap:2.5.11-debian-10-r81
-
-# Tags: 2.6.1-debian-10-r79
-FROM bitnami/openldap:2.6.1-debian-10-r79
-
-# Tags: 2.5.11-debian-10-r80
-FROM bitnami/openldap:2.5.11-debian-10-r80
-
-# Tags: 2.6.1-debian-10-r78
-FROM bitnami/openldap:2.6.1-debian-10-r78
-
-# Tags: 2.5.11-debian-10-r79
-FROM bitnami/openldap:2.5.11-debian-10-r79
-
-# Tags: 2.6.1-debian-10-r77
-FROM bitnami/openldap:2.6.1-debian-10-r77
-
-# Tags: 2.5.11-debian-10-r78
-FROM bitnami/openldap:2.5.11-debian-10-r78
-
-# Tags: 2.6.1-debian-10-r76
-FROM bitnami/openldap:2.6.1-debian-10-r76
-
-# Tags: 2.5.11-debian-10-r77
-FROM bitnami/openldap:2.5.11-debian-10-r77
-
-# Tags: 2.6.1-debian-10-r75
-FROM bitnami/openldap:2.6.1-debian-10-r75
-
-# Tags: 2.5.11-debian-10-r76
-FROM bitnami/openldap:2.5.11-debian-10-r76
-
-# Tags: 2.6.1-debian-10-r74
-FROM bitnami/openldap:2.6.1-debian-10-r74
-
-# Tags: 2.5.11-debian-10-r75
-FROM bitnami/openldap:2.5.11-debian-10-r75
-
-# Tags: 2.6.1-debian-10-r73
-FROM bitnami/openldap:2.6.1-debian-10-r73
-
-# Tags: 2.5.11-debian-10-r74
-FROM bitnami/openldap:2.5.11-debian-10-r74
-
-# Tags: 2.6.1-debian-10-r72
-FROM bitnami/openldap:2.6.1-debian-10-r72
-
-# Tags: 2.5.11-debian-10-r73
-FROM bitnami/openldap:2.5.11-debian-10-r73
-
-# Tags: 2.6.1-debian-10-r71
-FROM bitnami/openldap:2.6.1-debian-10-r71
